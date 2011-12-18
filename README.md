@@ -6,14 +6,14 @@ A simple date picker. Renders one month at a time, week starts at Monday, suppor
 one date - that's it. No holidays, no weeks, no highlighting of current
 date.
 
-Testerd with jQuery 1.7.0.
+Tested with jQuery 1.7.0.
 
 Sample usage
 ------------
 
-  $('#my-date-selector-element').day(function(date) {
-    // Date is of type Date
-  });
+    $('#my-date-selector-element').day(function(date) {
+        // Date is of type Date
+    });
 
 
 Test done
