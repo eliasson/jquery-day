@@ -1,0 +1,84 @@
+/**
+ * Day - A jQuery date picker
+ *
+ * Copyright (C) 2011 by Markus Eliasson
+ *
+ * Licensed under the MIT license
+ */
+.popup_day_selector {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #666;
+  position: absolute;
+
+  font-family: Helvetica;
+  font-size: 0.75em;
+  color: #555;
+}
+
+.popup_day_selector a,
+.popup_day_selector a:active,
+.popup_day_selector a:visited,
+.popup_day_selector a:hover {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.popup_day_selector table thead .day_header th {
+  color: #333;
+  font-weight: 600;
+}
+
+.popup_day_selector .date_prev {
+  float: left;
+  padding-left: 5px;
+}
+
+.popup_day_selector .date_next {
+  float: right;
+  padding-right: 5px;
+}
+
+.popup_day_selector table {
+  background-color: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-weight: normal;
+}
+
+.popup_day_selector table th {
+  font-weight: normal;
+  padding: 5px;
+}
+
+.popup_day_selector thead {
+  background-color: #efefef;
+}
+
+.popup_day_selector tbody {
+  background-color: #fff;
+}
+
+.popup_day_selector tbody td {
+  padding: 5px;
+  /*border: 1px solid #eee;*/
+  text-align: center;
+  cursor: pointer;
+}
+
+.popup_day_selector tbody td:hover {
+  background-color: #dedede;
+}
+
+.popup_day_selector tbody .date_off {
+  color: #aaa;
+}
+
+.popup_day_selector tbody .date_selected {
+  background-color: #efefef;
+  color: #555;
+  font-weight: bolder;
+}
+
