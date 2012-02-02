@@ -9,15 +9,23 @@
   </head>
   <body>
     <h1>Test</h1>
-    <a href="#" class="select_date">Select a date</a>
+    <a href="#" id="select_date">Select a date</a>
     <div id="result"></div>
+    <br/>
+
+    <a href="#" id="another_date">Select another date</a>
+    <div id="another_result"></div>
+    <br/>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="jquery.day.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $('.select_date').day(function(date) {
+        $('#select_date').day(function(date) {
           jQuery('#result').append('<p>Selected date: ' + date + '</p>');
+        });
+        $('#another_date').day(function(date) {
+          jQuery('#another_result').append('<p>Selected date: ' + date + '</p>');
         });
       });
     </script>
