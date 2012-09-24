@@ -26,7 +26,7 @@
         $this.data('daydata', data);
       }
 
-      $(this).click(function() {
+      $(this).click(function(event) {
         if($.fn.day.picker !== undefined) {
           $($.fn.day.picker).fadeOut('fast', function() {
             $($.fn.day.picker).remove();
